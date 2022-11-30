@@ -9,7 +9,7 @@ export default function Projects(props, {children}){
         <div className="flex p-2 flex-grow">
             <main className="flex mx-auto max-w-6xl flex-grow">
                 <div className="w-full">
-                    <Zone nameName="Content" props={props}/>
+                    <Zone nameName="Content" name="Content" props={props}/>
                 </div>
                 <div className="w-72 hidden md:block lg:block">
                     <Zone name="Sidebar" props={props}/>
